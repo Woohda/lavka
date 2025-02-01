@@ -1,4 +1,5 @@
 # Геймифицированный баннер
+<img width="296" alt="Снимок экрана 2025-02-01 в 19 35 16" src="https://github.com/user-attachments/assets/2d651d41-5447-432e-85d0-2dc3c59c4653" />
 
 ## Описание
 
