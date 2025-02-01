@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lavka market</title>
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/media.css" />
+  </head>
+  <body class="page">
+    <main class="content">
+      <section class="lavka">
+        <ul class="lavka__list">
+          <!-- ЗДЕСЬ ОКАЖУТСЯ ТЕМПЛЕЙТЫ КАРТОЧЕК -->
+        </ul>
+      </section>
+      <section class="basket">
+        <img
+          src="./images/Basket.svg"
+          alt="basket"
+          class="basket__for-products-picture"
+        />
+        <div class="basket__for-products"></div>
+        <button id="payment" class="button hidden">Оплатить корзину</button>
+      </section>
+    </main>
+
+    <!-- ТЕМПЛЕЙТЫ -->
+
+    <template class="lavka__list-item-template">
+      <li class="lavka__list-item">
+        <img src="" alt="" class="lavka__list-item-picture" draggable="true"/>
+      </li>
+    </template>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

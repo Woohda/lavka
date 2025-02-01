@@ -1,0 +1,78 @@
+/* Дефолтные стили для десктопа (широкие экраны 1920px высота 1080px) */
+
+/* Ноутбуки и небольшие экраны (до 1280px) */
+@media screen and (max-width: 1280px), (max-height: 800px) {
+  .lavka__list {
+    grid-template-columns: repeat(
+      4,
+      calc(50px + (77 - 50) * ((100vw - 300px) / (1920 - 300)))
+    );
+  }
+}
+
+/* Ноутбуки (ширина от 1024px, высота от 720px) */
+@media screen and (max-width: 1024px), (max-height: 720px) {
+  .lavka__list {
+    grid-template-columns: repeat(
+      4,
+      calc(50px + (71 - 50) * ((100vw - 300px) / (1920 - 300)))
+    );
+  }
+}
+
+/*  Планшеты в горизонтальном режиме (ширина от 768px, высота от 600px) */
+@media screen and (max-width: 768px), (max-height: 600px) {
+  .lavka {
+    min-height: 76%;
+  }
+  .lavka__list {
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: 125px 87px 80px;
+    padding-block-start: 0;
+  }
+  .basket__for-products {
+    padding-block-end: 0;
+  }
+
+  .lavka__list-item:has(#Vine, #Chips) {
+    justify-content: end;
+  }
+  .lavka__list-item:has(#Turkey, #Greenery) {
+    justify-content: start;
+  }
+
+  .lavka__list-item:has(#Jam) > .lavka__list-item-picture {
+    width: 95%;
+  }
+  .lavka__list-item:has(#Vine, #Milk) > .lavka__list-item-picture {
+    width: 77%;
+  }
+
+  .lavka__list-item:has(#Pineapple) > .lavka__list-item-picture {
+    width: 65%;
+  }
+  .lavka__list-item:has(#Meat) > .lavka__list-item-picture {
+    height: 62%;
+  }
+
+  .lavka__list-item:has(#Banana, #Chips) > .lavka__list-item-picture {
+    height: 55%;
+  }
+
+  .basket {
+    width: 92%;
+  }
+  .basket__for-products-picture {
+    top: -25px;
+  }
+
+  .basket__for-products:has( #Milk, #Jam, #Cheese, #Apple, #Pineapple) > .lavka__list-item-picture {
+    width: 17%;  
+  }
+
+  .button {
+    bottom: -29px;
+    left: 51px;
+  }
+
+}

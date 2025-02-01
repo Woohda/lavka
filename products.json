@@ -1,0 +1,46 @@
+[
+  {
+    "src": "images/Vine.svg",
+    "alt": "Vine"
+  },
+  {
+    "src": "images/Milk.svg",
+    "alt": "Milk"
+  },
+  {
+    "src": "images/Jam.svg",
+    "alt": "Jam"
+  },
+  {
+    "src": "images/Cheese.svg",
+    "alt": "Cheese"
+  },
+  {
+    "src": "images/Meat.svg",
+    "alt": "Meat"
+  },
+  {
+    "src": "images/Turkey.svg",
+    "alt": "Turkey"
+  },
+  {
+    "src": "images/Chips.svg",
+    "alt": "Chips"
+  },
+  {
+    "src": "images/Pineapple.svg",
+    "alt": "Pineapple"
+  },
+  {
+    "src": "images/Banana.svg",
+    "alt": "Banana"
+  },
+  {
+    "src": "images/Apple.svg",
+    "alt": "Apple"
+  },
+  {
+    "src": "images/Greenery.svg",
+    "alt": "Greenery"
+  }
+]
